@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+
+<!--
+====================================================
+        STUDENT PERSONAL PORTFOLIO WEBSITE
+====================================================
+
+Author : Your Name
+
+This project is created for learning HTML & CSS.
+
+====================================================
+-->
+
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Website -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Description -->
+    <meta name="description"
+          content="Personal Portfolio Website">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+          content="HTML,CSS,Portfolio">
+
+    <!-- Author -->
+    <meta name="author"
+          content="samara simha reddy">
+
+    <!-- Browser Title -->
+    <title>Samara Simha Reddy - Portfolio</title>
+
+    <!-- Website Logo -->
+    <link rel="icon"
+          href="images/logo.png">
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<!-- ===========================================
+                HEADER START
+=========================================== -->
+
+<header>
+
+    <!-- Website Logo -->
+
+    <div class="logo">
+
+        <img src="images/logo.png"
+             alt="Logo">
+
+        <h2>My Portfolio</h2>
+
+    </div>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- ===========================================
+                HEADER END
+=========================================== -->
+
+
+
+
+
+<!-- ===========================================
+                HERO SECTION
+=========================================== -->
+
+<section class="hero">
+
+    <!-- Left Side -->
+
+    <div class="hero-content">
+
+        <p class="welcome">
+
+            👋 Hello Everyone
+
+        </p>
+
+        <h1>
+
+            I'm
+
+            <span>
+
+                Samara Simha Reddy
+
+            </span>
+
+        </h1>
+
+        <h3>
+
+            Full Stack Developer & Technical Trainer
+
+        </h3>
+
+        <p class="description">
+
+            Passionate about Web Development,
+
+            Artificial Intelligence,
+
+            AWS Cloud,
+
+            and Software Development.
+
+        </p>
+
+        <div class="buttons">
+
+            <a href="resume.pdf"
+               download>
+
+                <button class="resume">
+
+                    Download Resume
+
+                </button>
+
+            </a>
+
+            <a href="#contact">
+
+                <button class="contact">
+
+                    Contact Me
+
+                </button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Right Side -->
+
+    <div class="hero-image">
+
+        <img src="images/myphoto.jpg"
+             alt="Profile">
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+                ABOUT SECTION START
+=========================================== -->
+
+<section class="about" id="about">
+
+    <h2 class="section-title">
+
+        About Me
+
+    </h2>
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <img src="images/profile.png"
+                 alt="Profile Image">
+
+        </div>
+
+        <div class="about-content">
+
+            <h3>Hello! I'm Samara Simha Reddy</h3>
+
+            <p>
+
+                I am a passionate Full Stack Developer with
+                strong knowledge in HTML, CSS, JavaScript,
+                Python, SQL, AWS and Artificial Intelligence.
+
+            </p>
+
+            <p>
+
+                I enjoy creating responsive websites and
+                solving real-world problems using technology.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+                ABOUT SECTION END
+=========================================== -->
+
+
+
+<!-- ===========================================
+          PERSONAL INFORMATION START
+=========================================== -->
+
+<section class="personal-info">
+
+    <h2 class="section-title">
+
+        Personal Information
+
+    </h2>
+
+    <div class="info-container">
+
+        <div class="info-card">
+
+            <h3>Name</h3>
+
+            <p>Samara Simha Reddy</p>
+
+        </div>
+
+        <div class="info-card">
+
+            <h3>Email</h3>
+
+            <p>yourmail@gmail.com</p>
+
+        </div>
+
+        <div class="info-card">
+
+            <h3>Phone</h3>
+
+            <p>+91 9876543210</p>
+
+        </div>
+
+        <div class="info-card">
+
+            <h3>Location</h3>
+
+            <p>Andhra Pradesh</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+          PERSONAL INFORMATION END
+=========================================== -->
+
+
+
+<!-- ===========================================
+                SKILLS SECTION
+=========================================== -->
+
+<section class="skills" id="skills">
+
+    <h2 class="section-title">
+
+        Technical Skills
+
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+
+            <h3>HTML</h3>
+
+            <p>Web Page Structure</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>CSS</h3>
+
+            <p>Website Styling</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>JavaScript</h3>
+
+            <p>Interactive Websites</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Python</h3>
+
+            <p>Programming Language</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>SQL</h3>
+
+            <p>Database Management</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>AWS</h3>
+
+            <p>Cloud Computing</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+                SKILLS END
+=========================================== -->
+
+
+
+<!-- ===========================================
+            EDUCATION SECTION START
+=========================================== -->
+
+<section class="education" id="education">
+
+    <h2 class="section-title">
+
+        Education
+
+    </h2>
+
+    <table>
+
+        <tr>
+
+            <th>Qualification</th>
+
+            <th>College</th>
+
+            <th>Year</th>
+
+            <th>Percentage</th>
+
+        </tr>
+
+        <tr>
+
+            <td>B.Tech</td>
+
+            <td>SEA Engineering College</td>
+
+            <td>2023</td>
+
+            <td>85%</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Intermediate</td>
+
+            <td>XYZ Junior College</td>
+
+            <td>2019</td>
+
+            <td>95%</td>
+
+        </tr>
+
+        <tr>
+
+            <td>SSC</td>
+
+            <td>ABC High School</td>
+
+            <td>2018</td>
+
+            <td>93%</td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+<!-- ===========================================
+            EDUCATION END
+=========================================== -->
+
+
+
+<!-- ===========================================
+            ACHIEVEMENTS START
+=========================================== -->
+
+<section class="achievements">
+
+    <h2 class="section-title">
+
+        Achievements
+
+    </h2>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+
+            <h3>🏆 Web Development</h3>
+
+            <p>
+
+                Built multiple responsive websites
+                using HTML & CSS.
+
+            </p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            <h3>☁ AWS</h3>
+
+            <p>
+
+                Completed AWS Cloud Fundamentals.
+
+            </p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            <h3>🤖 AI</h3>
+
+            <p>
+
+                Developed beginner AI projects.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+            ACHIEVEMENTS END
+=========================================== -->
+
+<!-- ===========================================
+                PROJECTS SECTION START
+=========================================== -->
+
+<section class="projects" id="projects">
+
+    <h2 class="section-title">
+
+        My Projects
+
+    </h2>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+
+        <div class="project-card">
+
+            <img src="images/personalportfolio.png"
+                 alt="Portfolio Project">
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+
+                A responsive portfolio website developed
+                using HTML and CSS.
+
+            </p>
+
+            <a href="#">
+
+                <button>View Project</button>
+
+            </a>
+
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <img src="images/restaurantwebsite.png"
+                 alt="Restaurant Website">
+
+            <h3>Restaurant Website</h3>
+
+            <p>
+
+                Premium restaurant website with menu,
+                gallery and contact page.
+
+            </p>
+
+            <a href="#">
+
+                <button>View Project</button>
+
+            </a>
+
+        </div>
+
+        <!-- Project 3 -->
+
+        <div class="project-card">
+
+            <img src="images/collegewebsite.png"
+                 alt="College Website">
+
+            <h3>College Website</h3>
+
+            <p>
+
+                Responsive college website with admission,
+                courses and faculty pages.
+
+            </p>
+
+            <a href="#">
+
+                <button>View Project</button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+                PROJECTS SECTION END
+=========================================== -->
+
+
+
+
+
+<!-- ===========================================
+                EXPERIENCE SECTION START
+=========================================== -->
+
+<section class="experience">
+
+    <h2 class="section-title">
+
+        Internship / Experience
+
+    </h2>
+
+    <div class="experience-card">
+
+        <h3>
+
+            Full Stack Development Intern
+
+        </h3>
+
+        <h4>
+
+            ABC Technologies
+
+        </h4>
+
+        <p>
+
+            Duration : Jan 2024 - Mar 2024
+
+        </p>
+
+        <ul>
+
+            <li>
+
+                Developed responsive web pages.
+
+            </li>
+
+            <li>
+
+                Worked with HTML, CSS and JavaScript.
+
+            </li>
+
+            <li>
+
+                Designed landing pages.
+
+            </li>
+
+            <li>
+
+                Participated in team projects.
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+                EXPERIENCE SECTION END
+=========================================== -->
+
+
+
+
+
+<!-- ===========================================
+            CERTIFICATIONS SECTION START
+=========================================== -->
+
+<section class="certifications">
+
+    <h2 class="section-title">
+
+        Certifications
+
+    </h2>
+
+    <div class="certificate-container">
+
+        <div class="certificate-card">
+
+            <h3>
+
+                HTML & CSS
+
+            </h3>
+
+            <p>
+
+                Successfully completed HTML & CSS
+                Certification.
+
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>
+
+                Python Programming
+
+            </h3>
+
+            <p>
+
+                Completed Python Programming Course.
+
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>
+
+                AWS Cloud
+
+            </h3>
+
+            <p>
+
+                AWS Cloud Practitioner Training.
+
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>
+
+                SQL
+
+            </h3>
+
+            <p>
+
+                Database Management using SQL.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+            CERTIFICATIONS SECTION END
+=========================================== -->
+<!-- ===========================================
+                CONTACT SECTION START
+=========================================== -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">
+
+        Contact Me
+
+    </h2>
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+
+        <div class="contact-info">
+
+            <h3>Get In Touch</h3>
+
+            <p>
+
+                📧 Email :
+                samara@example.com
+
+            </p>
+
+            <p>
+
+                📱 Phone :
+                +91 9876543210
+
+            </p>
+
+            <p>
+
+                📍 Location :
+                Andhra Pradesh, India
+
+            </p>
+
+            <p>
+
+                I am available for Full-Time Jobs,
+                Freelance Projects and Internship Opportunities.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- Contact Form -->
+
+        <div class="contact-form">
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Enter Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Enter Your Email"
+                    required>
+
+                <input
+                    type="tel"
+                    placeholder="Enter Your Mobile Number"
+                    required>
+
+                <input
+                    type="text"
+                    placeholder="Subject">
+
+                <textarea
+                    rows="6"
+                    placeholder="Write Your Message Here">
+
+                </textarea>
+
+                <button>
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================================
+                CONTACT SECTION END
+=========================================== -->
+
+
+
+
+
+<!-- ===========================================
+                GOOGLE MAP START
+=========================================== -->
+
+<section class="map">
+
+    <h2 class="section-title">
+
+        My Location
+
+    </h2>
+
+    <iframe
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4434815769782!2d77.71379259999999!3d13.0074066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae112dc5b29ee1%3A0xb481c69eb8e710c8!2sSea%20College%20of%20Science%2C%20Commerce%20and%20Arts!5e0!3m2!1sen!2sin!4v1783386291358!5m2!1sen!2sin" width="100" height="50" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+</section>
+
+<!-- ===========================================
+                GOOGLE MAP END
+=========================================== -->
+
+
+
+
+
+<!-- ===========================================
+                SOCIAL MEDIA START
+=========================================== -->
+
+<section class="social">
+
+<h2 class="section-title">
+
+Connect With Me
+
+</h2>
+
+<div class="social-links">
+
+<a href="https://www.linkedin.com/in/valluru-samara-simha-reddy/">LinkedIn</a>
+
+<a href="#">GitHub</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">Twitter</a>
+
+</div>
+
+</section>
+
+<!-- ===========================================
+                SOCIAL MEDIA END
+=========================================== -->
+
+
+
+
+
+<!-- ===========================================
+                FOOTER START
+=========================================== -->
+
+<footer>
+
+<h2>
+
+My Portfolio
+
+</h2>
+
+<p>
+
+Designed using HTML & CSS
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved.
+
+</p>
+
+</footer>
+
+<!-- ===========================================
+                FOOTER END
+=========================================== -->
+</body>
+
+</html>
+/* =========================================
+
+        RESET
+
+========================================= */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+
+/* =========================================
+
+        BODY
+
+========================================= */
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+
+background:#dfd8d8;
+
+color:#080707;
+
+}
+
+
+/* =========================================
+
+        HEADER
+
+========================================= */
+
+header{
+
+position:sticky;
+
+top:0;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:18px 80px;
+
+background:white;
+
+box-shadow:0px 5px 20px rgba(0,0,0,.1);
+
+z-index:1000;
+
+}
+
+
+/* Logo */
+
+.logo{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
+.logo img{
+
+width:45px;
+
+}
+
+.logo h2{
+
+color:#2563EB;
+
+}
+
+
+/* Navigation */
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:35px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:bold;
+
+color:#333;
+
+transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+color:#2563EB;
+
+}
+
+
+/* =========================================
+
+        HERO
+
+========================================= */
+
+.hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:80px;
+
+min-height:90vh;
+
+}
+
+
+/* Left Side */
+
+.hero-content{
+
+width:50%;
+
+}
+
+.welcome{
+
+font-size:22px;
+
+color:#2563EB;
+
+margin-bottom:15px;
+
+}
+
+.hero-content h1{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.hero-content span{
+
+color:#2563EB;
+
+}
+
+.hero-content h3{
+
+font-size:28px;
+
+color:#666;
+
+margin-bottom:20px;
+
+}
+
+.description{
+
+font-size:20px;
+
+line-height:35px;
+
+margin-bottom:30px;
+
+}
+
+
+/* Buttons */
+
+.buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+button{
+
+padding:15px 30px;
+
+border:none;
+
+font-size:18px;
+
+cursor:pointer;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.resume{
+
+background:#2563EB;
+
+color:white;
+
+}
+
+.resume:hover{
+
+background:#1E40AF;
+
+}
+
+.contact{
+
+background:white;
+/* 
+border:1px solid #2563EB; */
+
+color:#2563EB;
+
+}
+
+.contact:hover{
+
+background:#2563EB;
+
+color:white;
+
+}
+
+
+/* Right Side */
+
+.hero-image{
+
+width: 60px;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.hero-image img{
+
+width:350px;
+
+border-radius:50%;
+
+border:8px solid #2563EB;
+
+box-shadow:0px 15px 40px rgba(0,0,0,.2);
+
+}
+
+/* ===========================================
+        COMMON SECTION TITLE
+=========================================== */
+
+.section-title{
+
+text-align:center;
+
+font-size:40px;
+
+margin-top:80px;
+
+margin-bottom:40px;
+
+color:#2563EB;
+
+}
+
+/* ===========================================
+            ABOUT
+=========================================== */
+
+.about-container{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:60px;
+
+width:85%;
+
+margin:auto;
+
+}
+
+.about-image img{
+
+width: 50px;
+
+border-radius:10px;
+
+box-shadow:0px 5px 15px rgba(0,0,0,.2);
+
+}
+
+.about-content{
+
+width:600px;
+
+}
+
+.about-content h3{
+
+font-size:35px;
+
+margin-bottom:20px;
+
+}
+
+.about-content p{
+
+font-size:18px;
+
+line-height:32px;
+
+margin-bottom:20px;
+
+}
+
+/* ===========================================
+        PERSONAL INFO
+=========================================== */
+
+.info-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+.info-card{
+
+width:230px;
+
+padding:25px;
+
+background:white;
+
+text-align:center;
+
+border-radius:12px;
+
+box-shadow:0px 5px 15px rgba(0,0,0,.15);
+
+transition:.3s;
+
+}
+
+.info-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.info-card h3{
+
+color:#2563EB;
+
+margin-bottom:10px;
+
+}
+
+/* ===========================================
+            SKILLS
+=========================================== */
+
+.skills-container{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:30px;
+
+width:90%;
+
+margin:auto;
+
+}
+
+.skill-card{
+
+width:220px;
+
+padding:30px;
+
+background:white;
+
+text-align:center;
+
+border-radius:15px;
+
+box-shadow:0px 8px 20px rgba(0,0,0,.15);
+
+transition:.3s;
+
+}
+
+.skill-card:hover{
+
+transform:scale(1.05);
+
+background:#2563EB;
+
+color:white;
+
+}
+
+.skill-card h3{
+
+margin-bottom:15px;
+
+}
+
+/* ===========================================
+            EDUCATION
+=========================================== */
+
+table{
+
+width:90%;
+
+margin:auto;
+
+border-collapse:collapse;
+
+}
+
+th{
+
+background:#2563EB;
+
+color:white;
+
+padding:18px;
+
+}
+
+td{
+
+padding:18px;
+
+text-align:center;
+
+}
+
+table,th,td{
+
+border:1px solid #ddd;
+
+}
+
+tr:nth-child(even){
+
+background:#f7f7f7;
+
+}
+
+tr:hover{
+
+background:#e8f0ff;
+
+}
+
+/* ===========================================
+            ACHIEVEMENTS
+=========================================== */
+
+.achievement-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+margin-bottom:80px;
+
+}
+
+.achievement-card{
+
+width:300px;
+
+padding:30px;
+
+background:white;
+
+border-radius:15px;
+
+box-shadow:0px 8px 20px rgba(0,0,0,.15);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.achievement-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.achievement-card h3{
+
+margin-bottom:15px;
+
+color:#2563EB;
+
+}
+
+.achievement-card p{
+
+line-height:28px;
+
+}
+/* ===========================================
+            PROJECTS
+=========================================== */
+
+.projects-container{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:30px;
+
+width:90%;
+
+margin:auto;
+
+}
+
+.project-card{
+
+width:330px;
+
+background:white;
+
+border-radius:15px;
+
+overflow:hidden;
+
+box-shadow:0px 10px 25px rgba(0,0,0,.15);
+
+transition:.3s;
+
+}
+
+.project-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.project-card img{
+
+width:100%;
+
+height:200px;
+
+object-fit:cover;
+
+}
+
+.project-card h3{
+
+margin:20px;
+
+color:#2563EB;
+
+}
+
+.project-card p{
+
+margin:20px;
+
+line-height:28px;
+
+}
+
+.project-card button{
+
+margin:20px;
+
+padding:12px 25px;
+
+background:#2563EB;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+.project-card button:hover{
+
+background:#1E40AF;
+
+}
+
+/* ===========================================
+            EXPERIENCE
+=========================================== */
+
+.experience-card{
+
+width:80%;
+
+margin:auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0px 10px 20px rgba(0,0,0,.15);
+
+}
+
+.experience-card h3{
+
+color:#2563EB;
+
+margin-bottom:10px;
+
+}
+
+.experience-card h4{
+
+margin-bottom:15px;
+
+color:#555;
+
+}
+
+.experience-card p{
+
+margin-bottom:20px;
+
+}
+
+.experience-card ul{
+
+margin-left:25px;
+
+}
+
+.experience-card li{
+
+margin-bottom:12px;
+
+line-height:28px;
+
+}
+
+/* ===========================================
+            CERTIFICATIONS
+=========================================== */
+
+.certificate-container{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:30px;
+
+margin-bottom:80px;
+
+}
+
+.certificate-card{
+
+width:250px;
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:15px;
+
+box-shadow:0px 8px 20px rgba(0,0,0,.15);
+
+transition:.3s;
+
+}
+
+.certificate-card:hover{
+
+background:#2563EB;
+
+color:white;
+
+transform:scale(1.05);
+
+}
+
+.certificate-card h3{
+
+margin-bottom:15px;
+
+}
+
+/* ===========================================
+            CONTACT SECTION
+=========================================== */
+
+.contact{
+
+padding:80px;
+
+background:#F8FAFC;
+
+}
+
+.contact-container{
+
+display:flex;
+
+justify-content:center;
+
+align-items:flex-start;
+
+gap:50px;
+
+flex-wrap:wrap;
+
+}
+
+.contact-info{
+
+width:400px;
+
+}
+
+.contact-info h3{
+
+color:#2563EB;
+
+margin-bottom:20px;
+
+}
+
+.contact-info p{
+
+margin-bottom:20px;
+
+line-height:30px;
+
+font-size:18px;
+
+}
+
+.contact-form{
+
+width:500px;
+
+}
+
+.contact-form form{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.contact-form input{
+
+padding:15px;
+
+margin-bottom:20px;
+
+border:1px solid #ccc;
+
+border-radius:8px;
+
+font-size:16px;
+
+}
+
+.contact-form textarea{
+
+padding:15px;
+
+border:1px solid #ccc;
+
+border-radius:8px;
+
+font-size:16px;
+
+margin-bottom:20px;
+
+resize:none;
+
+}
+
+.contact-form button{
+
+background:#2563EB;
+
+color:white;
+
+padding:15px;
+
+border:none;
+
+border-radius:8px;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.contact-form button:hover{
+
+background:#1E40AF;
+
+}
+
+
+
+
+
+/* ===========================================
+                MAP
+=========================================== */
+
+.map{
+
+padding:80px;
+
+}
+
+.map iframe{
+
+width:100%;
+
+height:450px;
+
+border:0;
+
+border-radius:15px;
+
+box-shadow:0px 10px 25px rgba(0,0,0,.2);
+
+}
+
+
+
+
+
+/* ===========================================
+            SOCIAL MEDIA
+=========================================== */
+
+.social{
+
+padding:80px;
+
+text-align:center;
+
+}
+
+.social-links{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+.social-links a{
+
+text-decoration:none;
+
+padding:15px 25px;
+
+background:#2563EB;
+
+color:white;
+
+border-radius:8px;
+
+transition:.3s;
+
+font-weight:bold;
+
+}
+
+.social-links a:hover{
+
+background:#1E40AF;
+
+transform:translateY(-5px);
+
+}
+
+
+
+
+
+/* ===========================================
+                FOOTER
+=========================================== */
+
+footer{
+
+background:#111827;
+
+color:white;
+
+text-align:center;
+
+padding:40px;
+
+}
+
+footer h2{
+
+margin-bottom:15px;
+
+}
+
+footer p{
+
+margin-bottom:10px;
+
+color:#ddd;
+
+}
